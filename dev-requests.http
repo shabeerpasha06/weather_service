@@ -1,0 +1,8 @@
+### Fetch weather for Bangalore (POST)
+POST http://localhost:8000/weather
+Content-Type: application/json
+
+{"city":"Bangalore","unit":"centigrade"}
+
+###
+GET http://localhost:8000/health
